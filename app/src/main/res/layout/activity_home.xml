@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SmartNutrition App"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+    <!-- Button to create user profile -->
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button to view all users -->
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Users"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button to calculate BMI -->
+    <Button
+        android:id="@+id/btnCalculateBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button for calorie recommendation -->
+    <Button
+        android:id="@+id/btnCalorieRecommendation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Recommendation"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

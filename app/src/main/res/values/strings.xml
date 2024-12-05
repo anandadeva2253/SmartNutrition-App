@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartNutrition</string>
+
+    <string-array name="activity_factors">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Extremely Active</item>
+    </string-array>
+
+    <string-array name="goals">
+        <item>Weight Loss</item>
+        <item>Maintenance</item>
+        <item>Weight Gain</item>
+    </string-array>
+</resources>

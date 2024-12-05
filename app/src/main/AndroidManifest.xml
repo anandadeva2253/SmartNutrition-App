@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutritionapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+    <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Create Profile Activity -->
+        <activity
+            android:name=".CreateProfileActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ViewUsersActivity"
+            android:exported="true" />
+
+        <!-- Calculate BMI Activity -->
+        <activity
+            android:name=".CalculateBMIActivity"
+            android:exported="true" />
+
+        <!-- Calorie Recommendation Activity -->
+        <activity
+            android:name=".CalorieRecommendationActivity"
+            android:exported="true" />
+
+
+    </application>
+
+</manifest>
